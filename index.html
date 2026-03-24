@@ -6,51 +6,76 @@
 <title>Dhiraj B. Puri</title>
 
 <style>
+
 body{
 font-family: Arial;
-margin:40px;
-max-width:900px;
-line-height:1.6;
+margin:0;
+background:#f4f6f8;
+}
+
+.container{
+max-width:950px;
+margin:auto;
+background:white;
+padding:40px;
+}
+
+.navbar{
+background:#0b5394;
+padding:15px;
+}
+
+.navbar a{
+color:white;
+margin-right:25px;
+text-decoration:none;
+font-weight:bold;
 }
 
 .header{
 display:flex;
 align-items:center;
-gap:25px;
+gap:30px;
 }
 
 img{
-border-radius:10px;
+border-radius:12px;
 }
 
-.menu a{
-margin-right:20px;
+.section{
+margin-top:35px;
+line-height:1.6;
+}
+
+.button{
+background:#0b5394;
+color:white;
+padding:10px 18px;
 text-decoration:none;
-font-weight:bold;
-color:#0b5394;
+border-radius:6px;
 }
 
-hr{
-margin-top:25px;
-margin-bottom:25px;
+.links a{
+margin-right:18px;
 }
+
 </style>
 
 </head>
 
 <body>
 
-<div class="menu">
+<div class="navbar">
 <a href="#">Home</a>
 <a href="#">Publications</a>
 <a href="#">Projects</a>
 <a href="#">Contact</a>
 </div>
 
-<hr>
+<div class="container">
 
 <div class="header">
-<img src="photo.jpg" width="140">
+<img src="photo.jpg" width="150">
 <div>
 <h1>Dhiraj B. Puri</h1>
 <h3>PhD Research Scholar</h3>
@@ -59,14 +84,15 @@ BITS Pilani, Goa Campus, India</p>
 </div>
 </div>
 
-<hr>
-
+<div class="section">
 <h2>About Me</h2>
 <p>
-I am a PhD research scholar working in microfluidics, biofluid mechanics, and microswimmer transport physics.
+I am a PhD research scholar working in microfluidics, biofluid mechanics, and microswimmer transport physics. 
 My research focuses on sperm rheotaxis and development of biomimetic microfluidic devices for reproductive health applications.
 </p>
+</div>
 
+<div class="section">
 <h2>Research Interests</h2>
 <ul>
 <li>Microfluidics and Lab-on-Chip Systems</li>
@@ -75,35 +101,44 @@ My research focuses on sperm rheotaxis and development of biomimetic microfluidi
 <li>Computational Fluid Dynamics</li>
 <li>Biomedical Device Design</li>
 </ul>
+</div>
 
+<div class="section">
 <h2>Publications</h2>
 <ul>
 <li>Puri D. B., Hemadri V., Biswas G., Tripathi S. Interface-Mediated Migration of Motile Spermatozoa. ACS Langmuir.</li>
 </ul>
+</div>
 
+<div class="section">
 <h2>Projects</h2>
 <ul>
 <li>Rheotaxis-based sperm separation device</li>
 <li>Hydrostatic microfluidic flow simulations</li>
 <li>Sperm transport in non-Newtonian fluids</li>
 </ul>
+</div>
 
+<div class="section">
 <h2>Contact</h2>
-
 
 <p><b>Institute Email:</b> p20210048@goa.bits-pilani.ac.in</p>
 <p><b>Personal Email:</b> puridbp8149@gmail.com</p>
 
 <p>
-<a href="CV.pdf" target="_blank">📄 Download CV</a>
+<a class="button" href="CV.pdf" target="_blank">Download CV</a>
 </p>
 
-<p>
-<a href="https://scholar.google.com/citations?hl=en&user=f2Vo-9UAAAAJ</a> |
-<a href="https://www.researchgate.net/profile/Dhiraj-Puri?ev=hdr_xprf</a> |
-<a href="https://www.linkedin.com/in/dhiraj-puri-48a877114/">GitHub</a>
-</p>
+<div class="links">
+<a href="https://scholar.google.com/citations?hl=en&user=f2Vo-9UAAAAJ" target="_blank">Google Scholar</a>
+<a href="https://www.researchgate.net/profile/Dhiraj-Puri?ev=hdr_xprf" target="_blank">ResearchGate</a>
+<a href="https://www.linkedin.com/in/dhiraj-puri-48a877114/" target="_blank">LinkedIn</a>
+<a href="https://github.com/Dhiraj8149" target="_blank">GitHub</a>
+</div>
 
+</div>
+
+</div>
 
 </body>
 </html>
